@@ -1,16 +1,18 @@
 import React, { useContext } from 'react';
 import Context from './context/Context';
+import GlobalStyle from './styles/global';
 
 function App() {
   const { data: { photos } } = useContext(Context);
   return (
-    <div>
+    <main>
+      <GlobalStyle />
       { photos.map(({ src: { original } }) => (
-        <div>
+        <section>
           <img src={original} alt="" width="200px" />
-        </div>
+        </section>
       )) }
-    </div>
+    </main>
   );
 }
 
