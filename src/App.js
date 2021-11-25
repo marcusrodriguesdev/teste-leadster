@@ -3,7 +3,6 @@ import Context from './context/Context';
 
 function App() {
   const { data: { photos } } = useContext(Context);
-  console.log(photos);
   return (
     <div>
       { photos.map(({ src: { original } }) => (
