@@ -11,7 +11,7 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 13,
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
     "plugins": [
@@ -22,6 +22,7 @@
         "react/function-component-definition": [0, {
             "namedComponents": "arrow-function",
             "unnamedComponents": "arrow-function"
-          }]
+          }],
+          "react/jsx-no-constructed-context-values": "off"
     }
 }
