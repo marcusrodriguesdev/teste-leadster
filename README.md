@@ -15,7 +15,12 @@
 
 ## Desenvolvimento
 
-- Repositório desenvolvido por <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">Marcus Rodrigues</a>.
+- Desenvolvido por <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">Marcus Rodrigues</a>.
 - Contato:
   - <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">LinkedIn</a>;
   - email: marcus.rodrigues10@hotmail.com || marcusrodriguesdev@gmail.com
+- Tecnologia e Ferramentas:
+  - ReactJs;
+  - Sass;
+  - Context Api;
+  - Styled-Components;
