@@ -11,7 +11,7 @@ function App() {
   }
 
   return (
-    <main>
+    <>
       <GlobalStyle />
       <Header />
       { photos.map(({ src: { original } }) => (
@@ -19,7 +19,7 @@ function App() {
           <img src={original} alt="" width="200px" />
         </section>
       )) }
-    </main>
+    </>
   );
 }
 

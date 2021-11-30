@@ -8,4 +8,9 @@ export const Container = styled.header`
   font-weight: 700;
   height: 80px;
   justify-content: center;
+
+  .logo-leadster {
+    width: 190px;
+    cursor: pointer;
+  }
 `;

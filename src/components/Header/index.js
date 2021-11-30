@@ -7,7 +7,7 @@ function Header() {
       <img
         src="https://leadster.com.br/img/leadster/leadster.svg"
         alt="logo-leadster"
-        width="190px"
+        className="logo-leadster"
       />
     </Container>
   );
