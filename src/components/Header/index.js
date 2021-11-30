@@ -1,12 +1,11 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import { Container } from './styles';
 
 function Header() {
   return (
-    <header>
+    <Container>
       Album de fotos
-    </header>
+    </Container>
   );
 }
 

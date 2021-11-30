@@ -7,17 +7,20 @@ import requestApiPexels from '../services';
 
 function Provider({ children }) {
   const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     async function getPhotos() {
       const request = await requestApiPexels('natureze');
       setData(request);
+      setIsLoading(false);
     }
     getPhotos();
   }, []);
 
   const context = {
     data,
+    isLoading,
   };
 
   return (
