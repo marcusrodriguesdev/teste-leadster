@@ -4,7 +4,11 @@ import { Container } from './styles';
 function Header() {
   return (
     <Container>
-      Album de fotos
+      <img
+        src="https://leadster.com.br/img/leadster/leadster.svg"
+        alt="logo-leadster"
+        width="190px"
+      />
     </Container>
   );
 }
