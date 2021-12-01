@@ -21,6 +21,5 @@
   - email: marcus.rodrigues10@hotmail.com || marcusrodriguesdev@gmail.com
 - Tecnologia e Ferramentas:
   - ReactJs;
-  - Sass;
   - Context Api;
   - Styled-Components;
