@@ -1,25 +1,15 @@
-import React, { useContext } from 'react';
+import React from 'react';
+import CardPhoto from './components/CardPhoto';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Context from './context/Context';
 import GlobalStyle from './styles/global';
 
 function App() {
-  const { data: { photos }, isLoading } = useContext(Context);
-
-  if (isLoading) {
-    return <div>Carregando...</div>;
-  }
-
   return (
     <>
       <GlobalStyle />
       <Header />
-      { photos.map(({ src: { original } }) => (
-        <section>
-          <img src={original} alt="" width="200px" />
-        </section>
-      )) }
+      <CardPhoto />
       <Footer />
     </>
   );
