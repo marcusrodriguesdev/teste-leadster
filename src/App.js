@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Context from './context/Context';
 import GlobalStyle from './styles/global';
@@ -19,6 +20,7 @@ function App() {
           <img src={original} alt="" width="200px" />
         </section>
       )) }
+      <Footer />
     </>
   );
 }
