@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    background: #f4f3ee;
+    background: ${(props) => props.theme.colors.secondary};
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
   }
