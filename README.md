@@ -23,3 +23,4 @@
   - ReactJs;
   - Context Api;
   - Styled-Components;
+  - React-Hooks
