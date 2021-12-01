@@ -10,7 +10,7 @@ export const Container = styled.header`
   justify-content: center;
 
   .logo-leadster {
-    width: 190px;
     cursor: pointer;
+    width: 190px;
   }
 `;

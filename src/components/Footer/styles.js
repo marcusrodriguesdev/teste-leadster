@@ -17,7 +17,7 @@ export const Container = styled.footer`
   }
 
   .icon {
-    margin: 10px 7px 0 0;
     color: #2B81FA; 
+    margin: 10px 7px 0 0;
   }
 `;
