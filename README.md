@@ -24,3 +24,13 @@
   - Context Api;
   - Styled-Components;
   - React-Hooks
+
+## Visualizar
+ - No seu terminal, clone o respositório:
+   - ``` git clone git@github.com:marcusrodriguesdev/leadster.git ```
+ - Entre no diretório do projeto
+   - ``` cd leadster```
+ - Na pasta raíz, instale as dependências:
+   - ``` npm install ```
+ - E inicialize
+   - ``` npm start ```
