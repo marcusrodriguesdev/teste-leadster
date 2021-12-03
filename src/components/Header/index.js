@@ -31,9 +31,10 @@ function Header() {
         onChange={() => toogleTheme()}
         checked={title === 'dark'}
         checkedIcon={false}
+        className="switch"
         uncheckedIcon={false}
-        height={15}
-        width={40}
+        height={12}
+        width={35}
         handleDiameter={20}
         offColor="#44444C"
         onColor="#ADB5BD"
