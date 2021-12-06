@@ -1,7 +1,7 @@
 ## Album de Fotos
 
 Sua tarefa consiste em criar um site para um álbum de fotos:
-- [ ] Ele deve ser responsivo
+- [x] Ele deve ser responsivo
 - [x] Suas fotos devem ser carregadas da API
   - https://www.pexels.com/api/documentation/#photos
 - [x] As fotos devem ter paginação(lazy load é um bom caminho ;) mas não é obrigatório ); 
