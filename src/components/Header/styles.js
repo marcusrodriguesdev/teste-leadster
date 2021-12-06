@@ -9,15 +9,15 @@ export const Container = styled.header`
   justify-content: space-between;
 
   .leadster-icon {
-    margin-left: 2em;
     cursor: pointer;
-    width: 45px;
     height: 40px;
+    margin-left: 2em;
+    width: 45px;
   }
   
   .title-header {
-    font-family: 'Montserrat', sans-serif;
     color: ${(props) => props.theme.colors.text};
+    font-family: 'Montserrat', sans-serif;
   }
 
   .switch {
@@ -29,14 +29,14 @@ export const Container = styled.header`
     height: 10vh;
 
     .leadster-icon {
-      margin-left: 0.7em;
       cursor: pointer;
+      margin-left: 0.7em;
       width: 12vw;
     }
 
     .title-header {
-      font-family: 'Montserrat', sans-serif;
       color: ${(props) => props.theme.colors.text};
+      font-family: 'Montserrat', sans-serif;
       font-size: 4.7vw;
       margin-left: 8px;
     }
