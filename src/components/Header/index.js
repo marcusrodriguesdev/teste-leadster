@@ -19,9 +19,9 @@ function Header() {
         checkedIcon={false}
         className="switch"
         uncheckedIcon={false}
-        height={13}
-        width={34}
-        handleDiameter={10}
+        height={16}
+        width={35}
+        handleDiameter={13}
         offColor="#44444C"
         onColor="#ADB5BD"
         offHandleColor="#212529"
