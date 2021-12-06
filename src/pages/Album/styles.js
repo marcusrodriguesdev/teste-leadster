@@ -7,4 +7,9 @@ export const ContainerAlbum = styled.div`
   justify-content: center;
   background: ${(props) => props.theme.colors.primary};
   margin: 20px 0 20px 0;
+
+  .photos-album {
+    height: 400px;
+    width: 300px;
+  }
 `;

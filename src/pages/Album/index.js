@@ -6,19 +6,19 @@ import { ContainerAlbum } from './styles';
 
 function Album() {
   const { data: { photos }, isLoading } = useContext(Context);
+
   return (
     <ContainerAlbum>
       { isLoading ? 'Loading...' : photos.map((photo, { scrollPosition }) => (
-        <LazyLoadImage
-          effect="blur"
-          src={photo.src.medium}
-          alt={photo.photographer}
-          key={photo.id}
-          height="400px"
-          width="300px"
-          scrollPosition={scrollPosition}
-          className="photos-album"
-        />
+        <div key={photo.id}>
+          <LazyLoadImage
+            effect="blur"
+            src={photo.src.medium}
+            alt={photo.photographer}
+            scrollPosition={scrollPosition}
+            className="photos-album"
+          />
+        </div>
       )) }
     </ContainerAlbum>
   );
