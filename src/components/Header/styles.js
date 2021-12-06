@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.header`
   align-items: center;
-  background: ${(props) => props.theme.colors.primary};
+  background: ${(props) => props.theme.colors.secondary};
   display: flex;
   font-weight: 700;
   height: 80px;
@@ -20,6 +20,7 @@ export const Container = styled.header`
   .leadster-icon {
     margin-left: 2em;
     cursor: pointer;
-    width: 60px;
+    width: 45px;
+    height: 40px;
   }
 `;
