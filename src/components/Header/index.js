@@ -12,16 +12,16 @@ function Header() {
   return (
     <Container>
       <img src={LeadsterIcon} alt="leadster-icon" className="leadster-icon" />
-      <h1 className="title-header">Leadster - Álbum de fotos</h1>
+      <h1 className="title-header">Leadster - Álbum de Fotos</h1>
       <Switch
         onChange={() => toogleTheme()}
         checked={title === 'dark'}
         checkedIcon={false}
         className="switch"
         uncheckedIcon={false}
-        height={12}
-        width={35}
-        handleDiameter={20}
+        height={13}
+        width={34}
+        handleDiameter={10}
         offColor="#44444C"
         onColor="#ADB5BD"
         offHandleColor="#212529"
