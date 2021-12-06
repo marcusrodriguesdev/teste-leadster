@@ -19,7 +19,7 @@ Sua tarefa consiste em criar um site para um álbum de fotos:
 - Desenvolvido por <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">Marcus Rodrigues</a>.
 - Contato:
   - <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">LinkedIn</a>;
-  - email: marcus.rodrigues10@hotmail.com || marcusrodriguesdev@gmail.com
+  - email: marcus.rodrigues10@hotmail.com
 - Tecnologia e Ferramentas:
   - ReactJs;
   - Context Api;
