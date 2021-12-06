@@ -12,9 +12,14 @@ export const Container = styled.header`
     margin-right: 2em;
   }
 
-  .logo-leadster {
+  .title-header {
+    font-family: 'Montserrat', sans-serif;
+    color: ${(props) => props.theme.colors.text};
+  }
+
+  .leadster-icon {
     margin-left: 2em;
     cursor: pointer;
-    width: 190px;
+    width: 60px;
   }
 `;

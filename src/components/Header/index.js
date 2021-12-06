@@ -11,13 +11,8 @@ function Header() {
 
   return (
     <Container>
-      <img
-        src={LeadsterIcon}
-        alt="leadster-icon"
-        width="60px"
-        className="leadster-icon"
-      />
-      Leadster - Álbum de fotos
+      <img src={LeadsterIcon} alt="leadster-icon" className="leadster-icon" />
+      <h1 className="title-header">Leadster - Álbum de fotos</h1>
       <Switch
         onChange={() => toogleTheme()}
         checked={title === 'dark'}
