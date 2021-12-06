@@ -11,26 +11,23 @@ function Provider({ children }) {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [theme, setTheme] = useState(light);
-  const [page, setPage] = useState(1);
 
   const toogleTheme = () => setTheme(theme.title === 'light' ? dark : light);
 
   useEffect(() => {
     async function getPhotos() {
-      const request = await requestApiPexels(page);
+      const request = await requestApiPexels();
       setData(request);
       setIsLoading(false);
     }
     getPhotos();
-  }, [page]);
+  }, []);
 
   const context = {
     data,
     isLoading,
     toogleTheme,
     theme,
-    setPage,
-    page,
   };
 
   return (

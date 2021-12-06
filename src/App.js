@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
 import { ThemeProvider } from 'styled-components';
-import CardPhoto from './components/CardPhoto';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Title from './components/Title';
 import Context from './context/Context';
+import Album from './pages/Album';
 import GlobalStyle from './styles/global';
 
 function App() {
@@ -13,8 +12,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header />
-      <Title />
-      <CardPhoto />
+      <Album />
       <Footer />
     </ThemeProvider>
   );
