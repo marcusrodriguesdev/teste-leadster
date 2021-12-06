@@ -4,7 +4,7 @@ Sua tarefa consiste em criar um site para um álbum de fotos:
 - [ ] Ele deve ser responsivo
 - [x] Suas fotos devem ser carregadas da API
   - https://www.pexels.com/api/documentation/#photos
-- [ ] As fotos devem ter paginação(lazy load é um bom caminho ;) mas não é obrigatório ); 
+- [x] As fotos devem ter paginação(lazy load é um bom caminho ;) mas não é obrigatório ); 
 - [x] O site deve conter um cabeçalho e um rodapé;
 
 ## O que gostaríamos de ver
@@ -20,7 +20,7 @@ Sua tarefa consiste em criar um site para um álbum de fotos:
 - Contato:
   - <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">LinkedIn</a>;
   - email: marcus.rodrigues10@hotmail.com
-- Tecnologia e Ferramentas:
+- Tecnologias e Ferramentas:
   - ReactJs;
   - Context Api;
   - Styled-Components;
