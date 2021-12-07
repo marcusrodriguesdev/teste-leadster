@@ -6,7 +6,11 @@ export const Container = styled.header`
   display: flex;
   font-weight: 700;
   height: 80px;
+  width: 100%;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 
   .leadster-icon {
     cursor: pointer;
