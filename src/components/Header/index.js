@@ -2,9 +2,8 @@ import React, { useContext } from 'react';
 import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 import Context from '../../context/Context';
+import LeadsterIcon from '../../images/leadster_icon.png';
 import { Container } from './styles';
-// import light from '../../styles/light';
-// import dark from '../../styles/dark';
 
 function Header() {
   const { toogleTheme } = useContext(Context);
@@ -12,32 +11,20 @@ function Header() {
 
   return (
     <Container>
-      <div>
-        { title === 'light' ? (
-          <img
-            src="https://leadster.com.br/img/leadster/leadster.svg"
-            alt="logo-leadster"
-            className="logo-leadster"
-          />
-        ) : (
-          <img
-            src="https://leadster.com.br/img/leadster/leadster-white.svg"
-            alt="logo-leadster-white"
-            className="logo-leadster"
-          />
-        ) }
-      </div>
+      <img src={LeadsterIcon} alt="leadster-icon" className="leadster-icon" />
+      <h1 className="title-header">Leadster - Álbum de Fotos</h1>
       <Switch
         onChange={() => toogleTheme()}
         checked={title === 'dark'}
         checkedIcon={false}
+        className="switch"
         uncheckedIcon={false}
-        height={15}
-        width={40}
-        handleDiameter={20}
+        height={16}
+        width={35}
+        handleDiameter={13}
         offColor="#44444C"
         onColor="#ADB5BD"
-        offHandleColor="#212529"
+        offHandleColor="#0D1117"
         onHandleColor="#fff"
       />
     </Container>

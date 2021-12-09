@@ -4,7 +4,17 @@ import { Container } from './styles';
 function Footer() {
   return (
     <Container>
-      <p>© 2021 - Marcus Rodrigues</p>
+      <p>
+        © 2021 -
+        <a
+          href="https://www.linkedin.com/in/marcusrodriguesdev/"
+          target="_blank"
+          className="linkedin-link"
+          rel="noreferrer"
+        >
+          {' Marcus Rodrigues'}
+        </a>
+      </p>
     </Container>
   );
 }
