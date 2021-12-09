@@ -24,7 +24,7 @@ function Header() {
         handleDiameter={13}
         offColor="#44444C"
         onColor="#ADB5BD"
-        offHandleColor="#212529"
+        offHandleColor="#0D1117"
         onHandleColor="#fff"
       />
     </Container>

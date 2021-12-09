@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-export const ContainerAlbum = styled.div`
+export const ContainerAlbum = styled.main`
   align-items: center;
   background: ${(props) => props.theme.colors.primary};
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 0 20px 0;
+  padding: 35px 0 75px 0;
 
   .photos-album {
     height: 400px;
