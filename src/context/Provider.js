@@ -5,8 +5,6 @@ import requestApiPexels from '../services';
 import light from '../styles/light';
 import dark from '../styles/dark';
 
-// import { Container } from './styles';
-
 function Provider({ children }) {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
