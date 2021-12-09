@@ -29,9 +29,9 @@ Sua tarefa consiste em criar um site para um álbum de fotos:
 
 ## Visualizar
  - No seu terminal, clone o respositório:
-   - ``` git clone git@github.com:marcusrodriguesdev/leadster.git ```
+   - ``` git@github.com:marcusrodriguesdev/teste-leadster.git ```
  - Entre no diretório do projeto
-   - ``` cd leadster```
+   - ``` cd teste-leadster```
  - Na pasta raíz, instale as dependências:
    - ``` npm install ```
  - E inicialize
