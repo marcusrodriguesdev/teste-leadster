@@ -18,7 +18,7 @@ Sua tarefa consiste em criar um site para um álbum de fotos:
 
 - Desenvolvido por <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">Marcus Rodrigues</a>.
 - Contato:
-  - <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">LinkedIn</a>;
+  - <a href="https://www.linkedin.com/in/marcusrodriguesdev/" target="_blank" rel="noreferrer">LinkedIn</a>
   - Email: marcus.rodrigues10@hotmail.com
   - Cel.: (31) 99366-7947
 - Tecnologias e Ferramentas:
