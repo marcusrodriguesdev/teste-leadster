@@ -1,4 +1,4 @@
-## Album de Fotos
+## Teste Leadster - Album de Fotos
 
 Sua tarefa consiste em criar um site para um álbum de fotos:
 - [x] Ele deve ser responsivo
