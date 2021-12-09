@@ -6,6 +6,11 @@ import { Container } from './styles';
 function Pagination() {
   const { currentPage, setCurrentPage } = useContext(Context);
 
+  if (currentPage < 1) {
+    alert('Nao e possivel voltar mais paginas');
+    setCurrentPage(1);
+  }
+
   return (
     <Container>
       <button
